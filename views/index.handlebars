@@ -1,0 +1,11 @@
+<h1>Welcome to the OM NOM Station!</h1>
+
+<h2>Served Burgers</h2>
+
+<ul>
+    {{#each burgers}}
+        {{#unless devoured}}
+            {{>burgers/burger-block devoured=false}}
+        {{/unless}}
+    {{/each}}
+</ul>
