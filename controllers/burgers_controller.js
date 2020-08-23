@@ -28,6 +28,7 @@ router.put("/api/burgers/:id", function(req, res) {
     burger.update({
         devoured: req.body.devoured
     }, condition, function(result) {
+        console.log("I IZ IN REZULT");
         if (result.changedRows == 0){
             return res.status(404).end();
         } else{
