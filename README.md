@@ -3,7 +3,7 @@
 ## Description
 This application allows the user to create new "burgers" and then "devour" them when the "OM NOM" button is pressed. Doing so moves the burger from the left to the right column. This application utilizes mySQL, express, express handlebars, and nodeJS. 
 
-[Startup](./public/pictures/Burger-Logger.png)
+![Startup](./public/pictures/Burger-Logger.png)
 
 ## Instructions
 
